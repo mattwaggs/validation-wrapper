@@ -1,0 +1,23 @@
+{
+  "name": "validation-wrapper",
+  "version": "1.0.0",
+  "description": "A simple validation wrapper in nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattwaggs/validation-wrapper.git"
+  },
+  "author": "Matt Waggoner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattwaggs/validation-wrapper/issues"
+  },
+  "homepage": "https://github.com/mattwaggs/validation-wrapper#readme"
+}
