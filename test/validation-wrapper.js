@@ -8,10 +8,10 @@ describe('testing validation-wrapper', function() {
 
 		var validation = new vw();
 		validation.validate(
-			{value: true, name: 'user id', errorMessage: 'user_id is required'},
-			{value: true, name: 'password', errorMessage: 'password is required'},
-			{value: false, name: 'email', errorMessage: 'email is not valid'},
-			{value: false, name: 'real name', errorMessage: 'real name is required'}
+			{check: true, name: 'user id', errorMessage: 'user_id is required'},
+			{check: true, name: 'password', errorMessage: 'password is required'},
+			{check: false, name: 'email', errorMessage: 'email is not valid'},
+			{check: false, name: 'real name', errorMessage: 'real name is required'}
 		);
 
 		it('getErrors() should have two results', function() {
